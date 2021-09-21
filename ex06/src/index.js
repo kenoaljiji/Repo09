@@ -17,6 +17,7 @@ function comparisonToEqual(a) {
 
   //Only change code above this line
 }
+
 console.log(comparisonToEqual(0));
 console.log(comparisonToEqual(5));
 console.log(comparisonToEqual(17));
