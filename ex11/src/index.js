@@ -1,9 +1,9 @@
 function switchCase(letter) {
   //Only change code below this
 
-  var animals = letter;
+  var animals;
 
-  switch (animals) {
+  switch (letter) {
     case "a":
       animals = "antelope";
       break;
