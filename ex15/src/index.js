@@ -6,8 +6,7 @@ function myDoWhile() {
   var i = 0;
   do {
     myNumbers += i;
-    if (i === 9) break;
-    myNumbers += ", ";
+    if (i != 9) myNumbers += ", ";
     i++;
   } while (i <= 9);
 
