@@ -2,9 +2,9 @@ function myEqualFunction(num) {
   //Only change code below this line
   if (num === 23) {
     return "Equal";
-  } else {
-    return "Not equal";
   }
+  return "Not equal";
+
   //Only change code above this line
 }
 console.log(myEqualFunction(5));

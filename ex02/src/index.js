@@ -2,9 +2,9 @@ function myFunction(myParamater) {
   //Only change code below this line
   if (myParamater) {
     return "The paramater is true!";
-  } else {
-    return "The paramater is false!";
   }
+  return "The paramater is false!";
+
   //Only change code above this line
 }
 console.log(myFunction(true));

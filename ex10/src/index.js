@@ -5,8 +5,9 @@ function logicOrder(num) {
     return "Less than 50";
   } else if (num < 100) {
     return "Less than 100";
-  } else;
-  return "Greater than equal to 100";
+  } else {
+    return "Greater than equal to 100";
+  }
 
   //Only change code above this line
 }

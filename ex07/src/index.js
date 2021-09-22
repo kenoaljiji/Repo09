@@ -2,9 +2,8 @@ function logicalAndOperator(num) {
   //Only change code below this
   if (num <= 80 && num >= 40) {
     return "Yes";
-  } else {
-    return "No";
   }
+  return "No";
 
   //Only change code above this line
 }
